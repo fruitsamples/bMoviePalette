@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 39;
+	objects = {
+		0259C573FE90428111CA0C5A = {
+			buildSettings = {
+			};
+			buildStyles = (
+				2E58F360FFB2326E11CA0CBA,
+				2E58F361FFB2326E11CA0CBA,
+			);
+			hasScannedForEncodings = 1;
+			isa = PBXProject;
+			mainGroup = 0259C574FE90428111CA0C5A;
+			projectDirPath = "";
+			targets = (
+				253DB5AB04D7379F00BC8F8F,
+			);
+		};
+		0259C574FE90428111CA0C5A = {
+			children = (
+				253DB5C504D7379F00BC8F8F,
+				F87941F5007FBEBB04CA0CBA,
+				F87941F6007FBEBB04CA0CBA,
+				F87941EE007FBE6704CA0CBA,
+				F87941EF007FBE6704CA0CBA,
+				F87941F7007FBEBB04CA0CBA,
+				F87941F8007FBEBB04CA0CBA,
+				F8C13B6700C5A8CC04CA0CBA,
+				F80B56900087787304CA0CBA,
+				F80B56910087787304CA0CBA,
+				F85581520082919F04CA0CBA,
+				F85581530082919F04CA0CBA,
+				2E58F364FFB232C311CA0CBA,
+				1ED78706FE9D4A0611CA0C5A,
+				0259C582FE90428111CA0C5A,
+			);
+			isa = PBXGroup;
+			name = MovieEditorPalette;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		0259C582FE90428111CA0C5A = {
+			children = (
+				0259C583FE90428111CA0C5A,
+				F87941F0007FBE6704CA0CBA,
+				F87941FD007FC07604CA0CBA,
+				F8D29AB50098DADD04CA0CBA,
+				F8D29AB70098DDE004CA0CBA,
+				F8E16EA90098E2FE04CA0CBA,
+			);
+			isa = PBXGroup;
+			name = Resources;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		0259C583FE90428111CA0C5A = {
+			expectedFileType = text.plist.xml;
+			isa = PBXFileReference;
+			path = palette.table;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//020
+//021
+//022
+//023
+//024
+//1E0
+//1E1
+//1E2
+//1E3
+//1E4
+		1ED78706FE9D4A0611CA0C5A = {
+			children = (
+				253DB5C604D7379F00BC8F8F,
+			);
+			isa = PBXGroup;
+			name = Products;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//1E0
+//1E1
+//1E2
+//1E3
+//1E4
+//250
+//251
+//252
+//253
+//254
+		253DB5AB04D7379F00BC8F8F = {
+			buildPhases = (
+				253DB5AC04D7379F00BC8F8F,
+				253DB5B204D7379F00BC8F8F,
+				253DB5B904D7379F00BC8F8F,
+				253DB5BF04D7379F00BC8F8F,
+				253DB5C304D7379F00BC8F8F,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_OPTIMIZATION_LEVEL = 1;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Developer/Palettes";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-bundle";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = bMoviePalette;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost";
+				WRAPPER_EXTENSION = palette;
+			};
+			dependencies = (
+			);
+			isa = PBXNativeTarget;
+			name = bMoviePalette;
+			productInstallPath = "$(HOME)/Developer/Palettes";
+			productName = MovieEditorPalette;
+			productReference = 253DB5C604D7379F00BC8F8F;
+			productType = "com.apple.product-type.bundle";
+		};
+		253DB5AC04D7379F00BC8F8F = {
+			buildActionMask = 2147483647;
+			files = (
+				253DB5AD04D7379F00BC8F8F,
+				253DB5AE04D7379F00BC8F8F,
+				253DB5AF04D7379F00BC8F8F,
+				253DB5B004D7379F00BC8F8F,
+				253DB5B104D7379F00BC8F8F,
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		253DB5AD04D7379F00BC8F8F = {
+			fileRef = F87941EE007FBE6704CA0CBA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		253DB5AE04D7379F00BC8F8F = {
+			fileRef = F87941F5007FBEBB04CA0CBA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		253DB5AF04D7379F00BC8F8F = {
+			fileRef = F87941F7007FBEBB04CA0CBA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		253DB5B004D7379F00BC8F8F = {
+			fileRef = F85581520082919F04CA0CBA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		253DB5B104D7379F00BC8F8F = {
+			fileRef = F80B56900087787304CA0CBA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		253DB5B204D7379F00BC8F8F = {
+			buildActionMask = 2147483647;
+			files = (
+				253DB5B304D7379F00BC8F8F,
+				253DB5B404D7379F00BC8F8F,
+				253DB5B504D7379F00BC8F8F,
+				253DB5B604D7379F00BC8F8F,
+				253DB5B704D7379F00BC8F8F,
+				253DB5B804D7379F00BC8F8F,
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		253DB5B304D7379F00BC8F8F = {
+			fileRef = 0259C583FE90428111CA0C5A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		253DB5B404D7379F00BC8F8F = {
+			fileRef = F87941F0007FBE6704CA0CBA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		253DB5B504D7379F00BC8F8F = {
+			fileRef = F87941FD007FC07604CA0CBA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		253DB5B604D7379F00BC8F8F = {
+			fileRef = F8D29AB50098DADD04CA0CBA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		253DB5B704D7379F00BC8F8F = {
+			fileRef = F8D29AB70098DDE004CA0CBA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		253DB5B804D7379F00BC8F8F = {
+			fileRef = F8E16EA90098E2FE04CA0CBA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		253DB5B904D7379F00BC8F8F = {
+			buildActionMask = 2147483647;
+			files = (
+				253DB5BA04D7379F00BC8F8F,
+				253DB5BB04D7379F00BC8F8F,
+				253DB5BC04D7379F00BC8F8F,
+				253DB5BD04D7379F00BC8F8F,
+				253DB5BE04D7379F00BC8F8F,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		253DB5BA04D7379F00BC8F8F = {
+			fileRef = F87941EF007FBE6704CA0CBA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		253DB5BB04D7379F00BC8F8F = {
+			fileRef = F87941F6007FBEBB04CA0CBA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		253DB5BC04D7379F00BC8F8F = {
+			fileRef = F87941F8007FBEBB04CA0CBA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		253DB5BD04D7379F00BC8F8F = {
+			fileRef = F85581530082919F04CA0CBA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		253DB5BE04D7379F00BC8F8F = {
+			fileRef = F80B56910087787304CA0CBA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		253DB5BF04D7379F00BC8F8F = {
+			buildActionMask = 2147483647;
+			files = (
+				253DB5C004D7379F00BC8F8F,
+				253DB5C104D7379F00BC8F8F,
+				253DB5C204D7379F00BC8F8F,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		253DB5C004D7379F00BC8F8F = {
+			fileRef = 2E58F362FFB2327711CA0CBA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		253DB5C104D7379F00BC8F8F = {
+			fileRef = F87941FF007FC1BE04CA0CBA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		253DB5C204D7379F00BC8F8F = {
+			fileRef = F80AA5B200C5928F04CA0CBA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		253DB5C304D7379F00BC8F8F = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXRezBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		253DB5C504D7379F00BC8F8F = {
+			expectedFileType = text.plist;
+			isa = PBXFileReference;
+			path = Info.plist;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		253DB5C604D7379F00BC8F8F = {
+			expectedFileType = folder;
+			includeInIndex = 0;
+			isa = PBXFileReference;
+			path = bMoviePalette.palette;
+			refType = 3;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+//250
+//251
+//252
+//253
+//254
+//2E0
+//2E1
+//2E2
+//2E3
+//2E4
+		2E58F360FFB2326E11CA0CBA = {
+			buildRules = (
+			);
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OPTIMIZATION_CFLAGS = "-O1";
+				ZERO_LINK = YES;
+			};
+			isa = PBXBuildStyle;
+			name = Development;
+		};
+		2E58F361FFB2326E11CA0CBA = {
+			buildRules = (
+			);
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				ZERO_LINK = NO;
+			};
+			isa = PBXBuildStyle;
+			name = Deployment;
+		};
+		2E58F362FFB2327711CA0CBA = {
+			expectedFileType = wrapper.framework;
+			fallbackIsa = PBXFileReference;
+			isa = PBXFrameworkReference;
+			name = InterfaceBuilder.framework;
+			path = /System/Library/Frameworks/InterfaceBuilder.framework;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		2E58F364FFB232C311CA0CBA = {
+			children = (
+				F80AA5B200C5928F04CA0CBA,
+				2E58F362FFB2327711CA0CBA,
+				F87941FF007FC1BE04CA0CBA,
+			);
+			isa = PBXGroup;
+			name = Frameworks;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//2E0
+//2E1
+//2E2
+//2E3
+//2E4
+//F80
+//F81
+//F82
+//F83
+//F84
+		F80AA5B200C5928F04CA0CBA = {
+			expectedFileType = wrapper.framework;
+			fallbackIsa = PBXFileReference;
+			isa = PBXFrameworkReference;
+			name = Cocoa.framework;
+			path = /System/Library/Frameworks/Cocoa.framework;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		F80B56900087787304CA0CBA = {
+			expectedFileType = sourcecode.c.h;
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = SoundFileWell.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F80B56910087787304CA0CBA = {
+			expectedFileType = sourcecode.c.objc;
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = SoundFileWell.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F85581520082919F04CA0CBA = {
+			expectedFileType = sourcecode.c.h;
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = TimeFormatter.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F85581530082919F04CA0CBA = {
+			expectedFileType = sourcecode.c.objc;
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = TimeFormatter.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F87941EE007FBE6704CA0CBA = {
+			expectedFileType = sourcecode.c.h;
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = MovieEditorPalette.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F87941EF007FBE6704CA0CBA = {
+			expectedFileType = sourcecode.c.objc;
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = MovieEditorPalette.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F87941F0007FBE6704CA0CBA = {
+			children = (
+				F87941F1007FBE6704CA0CBA,
+			);
+			isa = PBXVariantGroup;
+			name = MovieEditorPalette.nib;
+			path = "";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F87941F1007FBE6704CA0CBA = {
+			expectedFileType = wrapper.nib;
+			isa = PBXFileReference;
+			name = English;
+			path = English.lproj/MovieEditorPalette.nib;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F87941F5007FBEBB04CA0CBA = {
+			expectedFileType = sourcecode.c.h;
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = MovieEditingController.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F87941F6007FBEBB04CA0CBA = {
+			expectedFileType = sourcecode.c.objc;
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = MovieEditingController.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F87941F7007FBEBB04CA0CBA = {
+			expectedFileType = sourcecode.c.h;
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = MyMovie.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F87941F8007FBEBB04CA0CBA = {
+			expectedFileType = sourcecode.c.objc;
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = MyMovie.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F87941FD007FC07604CA0CBA = {
+			expectedFileType = image.tiff;
+			isa = PBXFileReference;
+			path = MovieController.tiff;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F87941FF007FC1BE04CA0CBA = {
+			expectedFileType = wrapper.framework;
+			fallbackIsa = PBXFileReference;
+			isa = PBXFrameworkReference;
+			name = QuickTime.framework;
+			path = /System/Library/Frameworks/QuickTime.framework;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		F8C13B6700C5A8CC04CA0CBA = {
+			expectedFileType = text.rtf;
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = README.rtf;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F8D29AB50098DADD04CA0CBA = {
+			expectedFileType = image.tiff;
+			isa = PBXFileReference;
+			path = music.tiff;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F8D29AB70098DDE004CA0CBA = {
+			expectedFileType = image.tiff;
+			isa = PBXFileReference;
+			path = QT.tiff;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		F8E16EA90098E2FE04CA0CBA = {
+			expectedFileType = image.tiff;
+			isa = PBXFileReference;
+			path = MovieEditorPalette.tiff;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+	};
+	rootObject = 0259C573FE90428111CA0C5A;
+}
